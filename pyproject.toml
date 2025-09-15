@@ -61,13 +61,13 @@ scripts.svcg = "so_vits_svc_fork.gui:main"
 [dependency-groups]
 dev = [
   "pytest>=8,<9",
-  "pytest-cov>=6,<7",
+  "pytest-cov>=7,<8",
 ]
 docs = [
   "furo>=2023.5.20; python_version>='3.11'",
   "myst-parser>=0.16; python_version>='3.11'",
   "sphinx>=4; python_version>='3.11'",
-  "sphinx-autobuild>=2024,<2025; python_version>='3.11'",
+  "sphinx-autobuild>=2025,<2026; python_version>='3.11'",
 ]
 
 [tool.ruff]
